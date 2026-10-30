@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KATANA — Sushi Bar | Кагарлик</title>
-<meta name="description" content="Суші-бар Катана в Кагарлику. Суші, сети, роли, темпура, доставка. Кожного дня 10:00–20:30.">
+<title>KATANA вЂ” Sushi Bar | РљР°РіР°СЂР»РёРє</title>
+<meta name="description" content="РЎСѓС€С–-Р±Р°СЂ РљР°С‚Р°РЅР° РІ РљР°РіР°СЂР»РёРєСѓ. РЎСѓС€С–, СЃРµС‚Рё, СЂРѕР»Рё, С‚РµРјРїСѓСЂР°, РґРѕСЃС‚Р°РІРєР°. РљРѕР¶РЅРѕРіРѕ РґРЅСЏ 10:00вЂ“20:30.">
 <meta name="theme-color" content="#0a0a0c">
 <link rel="icon" href="assets/logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -184,7 +184,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
 /* Section base */
-section{padding:100px 5%;position:relative}
+section{padding:100px 5%;position:relative;scroll-margin-top:80px}
 .section-head{text-align:center;margin-bottom:60px}
 .section-eyebrow{font-family:'Noto Sans JP',sans-serif;font-size:12px;letter-spacing:6px;color:var(--gold);margin-bottom:12px}
 .section-title{font-family:'Cinzel',serif;font-size:clamp(32px,5vw,52px);font-weight:700;letter-spacing:4px}
@@ -379,13 +379,13 @@ section{padding:100px 5%;position:relative}
     <span>KATANA</span>
   </div>
   <div class="nav-links" id="navLinks">
-    <a href="#about">Про нас</a>
-    <a href="#menu">Меню</a>
-    <a href="#gallery">Галерея</a>
-    <a href="#reviews">Відгуки</a>
-    <a href="#contact">Контакти</a>
+    <a href="#about">РџСЂРѕ РЅР°СЃ</a>
+    <a href="#menu">РњРµРЅСЋ</a>
+    <a href="#gallery">Р“Р°Р»РµСЂРµСЏ</a>
+    <a href="#reviews">Р’С–РґРіСѓРєРё</a>
+    <a href="#contact">РљРѕРЅС‚Р°РєС‚Рё</a>
+    <a href="tel:+380681510343" class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});">РџРѕРґР·РІРѕРЅРёС‚Рё</a>
   </div>
-  <a href="tel:+380681510343" class="nav-cta">Подзвонити</a>
   <div class="burger" id="burger"><span></span><span></span><span></span></div>
 </nav>
 
@@ -427,12 +427,12 @@ section{padding:100px 5%;position:relative}
   </svg>
   <canvas id="sakura"></canvas>
   <div class="hero-content">
-    <div class="hero-eyebrow">🍣 SUSHI BAR · КАГАРЛИК</div>
+    <div class="hero-eyebrow">рџЌЈ SUSHI BAR В· РљРђР“РђР Р›РРљ</div>
     <h1 class="hero-title">KATANA</h1>
-    <p class="hero-sub">Смак Японії в кожному шматочку · Доставка · Роли · Сети · Темпура</p>
+    <p class="hero-sub">РЎРјР°Рє РЇРїРѕРЅС–С— РІ РєРѕР¶РЅРѕРјСѓ С€РјР°С‚РѕС‡РєСѓ В· Р”РѕСЃС‚Р°РІРєР° В· Р РѕР»Рё В· РЎРµС‚Рё В· РўРµРјРїСѓСЂР°</p>
     <div class="hero-btns">
-      <a href="#menu" class="btn btn-primary">Переглянути меню</a>
-      <a href="tel:+380681510343" class="btn btn-ghost">📞 Подзвонити</a>
+      <a href="#menu" class="btn btn-primary">РџРµСЂРµРіР»СЏРЅСѓС‚Рё РјРµРЅСЋ</a>
+      <a href="tel:+380681510343" class="btn btn-ghost" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});">рџ“ћ РџРѕРґР·РІРѕРЅРёС‚Рё</a>
     </div>
   </div>
   <div class="hero-scroll">
@@ -443,45 +443,45 @@ section{padding:100px 5%;position:relative}
 
 <div class="marquee">
   <div class="marquee-track">
-    <span>KATANA</span><span class="dot">✦</span>
-    <span>СУШІ</span><span class="dot">✦</span>
-    <span>САМУРАЙ</span><span class="dot">✦</span>
-    <span>САКУРА</span><span class="dot">✦</span>
-    <span>РОЛИ</span><span class="dot">✦</span>
-    <span>ТЕМПУРА</span><span class="dot">✦</span>
-    <span>ДОСТАВКА</span><span class="dot">✦</span>
-    <span>KATANA</span><span class="dot">✦</span>
-    <span>СУШІ</span><span class="dot">✦</span>
-    <span>САМУРАЙ</span><span class="dot">✦</span>
-    <span>САКУРА</span><span class="dot">✦</span>
-    <span>РОЛИ</span><span class="dot">✦</span>
-    <span>ТЕМПУРА</span><span class="dot">✦</span>
-    <span>ДОСТАВКА</span><span class="dot">✦</span>
+    <span>KATANA</span><span class="dot">вњ¦</span>
+    <span>РЎРЈРЁР†</span><span class="dot">вњ¦</span>
+    <span>РЎРђРњРЈР РђР™</span><span class="dot">вњ¦</span>
+    <span>РЎРђРљРЈР Рђ</span><span class="dot">вњ¦</span>
+    <span>Р РћР›Р</span><span class="dot">вњ¦</span>
+    <span>РўР•РњРџРЈР Рђ</span><span class="dot">вњ¦</span>
+    <span>Р”РћРЎРўРђР’РљРђ</span><span class="dot">вњ¦</span>
+    <span>KATANA</span><span class="dot">вњ¦</span>
+    <span>РЎРЈРЁР†</span><span class="dot">вњ¦</span>
+    <span>РЎРђРњРЈР РђР™</span><span class="dot">вњ¦</span>
+    <span>РЎРђРљРЈР Рђ</span><span class="dot">вњ¦</span>
+    <span>Р РћР›Р</span><span class="dot">вњ¦</span>
+    <span>РўР•РњРџРЈР Рђ</span><span class="dot">вњ¦</span>
+    <span>Р”РћРЎРўРђР’РљРђ</span><span class="dot">вњ¦</span>
   </div>
 </div>
 
 <section class="about" id="about">
   <div class="decor" aria-hidden="true">
-    <span class="kanji pos-tr" data-parallax="0.18">侍</span>
-    <span class="kanji red pos-bl" data-parallax="0.3">桜</span>
+    <span class="kanji pos-tr" data-parallax="0.18">дѕЌ</span>
+    <span class="kanji red pos-bl" data-parallax="0.3">жЎњ</span>
   </div>
   <div class="section-head reveal">
-    <div class="section-eyebrow">— НАША ІСТОРІЯ —</div>
-    <h2 class="section-title">ПРО КАТАНУ</h2>
+    <div class="section-eyebrow">вЂ” РќРђРЁРђ Р†РЎРўРћР Р†РЇ вЂ”</div>
+    <h2 class="section-title">РџР Рћ РљРђРўРђРќРЈ</h2>
     <div class="section-line"></div>
   </div>
   <div class="about-grid">
     <div class="about-img reveal-left">
-      <img src="assets/interior1.jpg" alt="Інтер'єр суші-бару Katana">
+      <img src="assets/interior1.jpg" alt="Р†РЅС‚РµСЂ'С”СЂ СЃСѓС€С–-Р±Р°СЂСѓ Katana">
     </div>
     <div class="about-text reveal-right">
-      <h3>Мистецтво суші з душею самурая</h3>
-      <p>Katana — це суші-бар у Кагарлику, де традиції японської кухні поєднуються з сучасним стилем. Ми готуємо зі свіжих продуктів щодня, дотримуючись класичних технік та уваги до деталей.</p>
-      <p>Наша філософія — якість понад усе: від вибору рису до фінальної подачі. Кожен рол — це баланс смаку, текстури та естетики.</p>
+      <h3>РњРёСЃС‚РµС†С‚РІРѕ СЃСѓС€С– Р· РґСѓС€РµСЋ СЃР°РјСѓСЂР°СЏ</h3>
+      <p>Katana вЂ” С†Рµ СЃСѓС€С–-Р±Р°СЂ Сѓ РљР°РіР°СЂР»РёРєСѓ, РґРµ С‚СЂР°РґРёС†С–С— СЏРїРѕРЅСЃСЊРєРѕС— РєСѓС…РЅС– РїРѕС”РґРЅСѓСЋС‚СЊСЃСЏ Р· СЃСѓС‡Р°СЃРЅРёРј СЃС‚РёР»РµРј. РњРё РіРѕС‚СѓС”РјРѕ Р·С– СЃРІС–Р¶РёС… РїСЂРѕРґСѓРєС‚С–РІ С‰РѕРґРЅСЏ, РґРѕС‚СЂРёРјСѓСЋС‡РёСЃСЊ РєР»Р°СЃРёС‡РЅРёС… С‚РµС…РЅС–Рє С‚Р° СѓРІР°РіРё РґРѕ РґРµС‚Р°Р»РµР№.</p>
+      <p>РќР°С€Р° С„С–Р»РѕСЃРѕС„С–СЏ вЂ” СЏРєС–СЃС‚СЊ РїРѕРЅР°Рґ СѓСЃРµ: РІС–Рґ РІРёР±РѕСЂСѓ СЂРёСЃСѓ РґРѕ С„С–РЅР°Р»СЊРЅРѕС— РїРѕРґР°С‡С–. РљРѕР¶РµРЅ СЂРѕР» вЂ” С†Рµ Р±Р°Р»Р°РЅСЃ СЃРјР°РєСѓ, С‚РµРєСЃС‚СѓСЂРё С‚Р° РµСЃС‚РµС‚РёРєРё.</p>
       <div class="about-stats">
-        <div class="stat"><div class="num" data-count="8" data-suffix="+">0+</div><div class="lbl">Років досвіду</div></div>
-        <div class="stat"><div class="num" data-count="50" data-suffix="+">0+</div><div class="lbl">Позицій меню</div></div>
-        <div class="stat"><div class="num" data-count="2000" data-suffix="+">0+</div><div class="lbl">Задоволених клієнтів</div></div>
+        <div class="stat"><div class="num" data-count="8" data-suffix="+">0+</div><div class="lbl">Р РѕРєС–РІ РґРѕСЃРІС–РґСѓ</div></div>
+        <div class="stat"><div class="num" data-count="50" data-suffix="+">0+</div><div class="lbl">РџРѕР·РёС†С–Р№ РјРµРЅСЋ</div></div>
+        <div class="stat"><div class="num" data-count="2000" data-suffix="+">0+</div><div class="lbl">Р—Р°РґРѕРІРѕР»РµРЅРёС… РєР»С–С”РЅС‚С–РІ</div></div>
       </div>
     </div>
   </div>
@@ -489,12 +489,12 @@ section{padding:100px 5%;position:relative}
 
 <section class="menu" id="menu">
   <div class="decor" aria-hidden="true">
-    <span class="kanji pos-tl" data-parallax="0.2">鮨</span>
-    <span class="kanji red pos-br" data-parallax="0.32">刀</span>
+    <span class="kanji pos-tl" data-parallax="0.2">й®Ё</span>
+    <span class="kanji red pos-br" data-parallax="0.32">е€Ђ</span>
   </div>
   <div class="section-head reveal">
-    <div class="section-eyebrow">— МЕНЮ —</div>
-    <h2 class="section-title">НАШІ СТРАВИ</h2>
+    <div class="section-eyebrow">вЂ” РњР•РќР® вЂ”</div>
+    <h2 class="section-title">РќРђРЁР† РЎРўР РђР’Р</h2>
     <div class="section-line"></div>
   </div>
   <div class="menu-tabs reveal" id="menuTabs"></div>
@@ -503,12 +503,12 @@ section{padding:100px 5%;position:relative}
 
 <section class="gallery" id="gallery">
   <div class="decor" aria-hidden="true">
-    <span class="kanji pos-tr" data-parallax="0.26">桜</span>
-    <span class="kanji red pos-bl" data-parallax="0.18">鮨</span>
+    <span class="kanji pos-tr" data-parallax="0.26">жЎњ</span>
+    <span class="kanji red pos-bl" data-parallax="0.18">й®Ё</span>
   </div>
   <div class="section-head reveal">
-    <div class="section-eyebrow">— ГАЛЕРЕЯ —</div>
-    <h2 class="section-title">АТМОСФЕРА</h2>
+    <div class="section-eyebrow">вЂ” Р“РђР›Р•Р Р•РЇ вЂ”</div>
+    <h2 class="section-title">РђРўРњРћРЎР¤Р•Р Рђ</h2>
     <div class="section-line"></div>
   </div>
   <div class="gallery-grid reveal-zoom" id="galleryGrid"></div>
@@ -516,8 +516,8 @@ section{padding:100px 5%;position:relative}
 
 <section class="testi" id="reviews">
   <div class="section-head reveal">
-    <div class="section-eyebrow">— ВІДГУКИ —</div>
-    <h2 class="section-title">ЩО КАЖУТЬ КЛІЄНТИ</h2>
+    <div class="section-eyebrow">вЂ” Р’Р†Р”Р“РЈРљР вЂ”</div>
+    <h2 class="section-title">Р©Рћ РљРђР–РЈРўР¬ РљР›Р†Р„РќРўР</h2>
     <div class="section-line"></div>
   </div>
   <div class="testi-grid reveal-zoom" id="testiGrid"></div>
@@ -525,47 +525,47 @@ section{padding:100px 5%;position:relative}
 
 <section class="contact" id="contact">
   <div class="decor" aria-hidden="true">
-    <span class="kanji red pos-tl" data-parallax="0.22">侍</span>
-    <span class="kanji pos-br" data-parallax="0.32">刀</span>
+    <span class="kanji red pos-tl" data-parallax="0.22">дѕЌ</span>
+    <span class="kanji pos-br" data-parallax="0.32">е€Ђ</span>
   </div>
   <div class="section-head reveal">
-    <div class="section-eyebrow">— КОНТАКТИ —</div>
-    <h2 class="section-title">ЗАМОВЛЕННЯ & БРОНЮВАННЯ</h2>
+    <div class="section-eyebrow">вЂ” РљРћРќРўРђРљРўР вЂ”</div>
+    <h2 class="section-title">Р—РђРњРћР’Р›Р•РќРќРЇ & Р‘Р РћРќР®Р’РђРќРќРЇ</h2>
     <div class="section-line"></div>
   </div>
   <div class="contact-grid">
     <div class="contact-info reveal">
-      <h3>Ми завжди на зв'язку</h3>
+      <h3>РњРё Р·Р°РІР¶РґРё РЅР° Р·РІ'СЏР·РєСѓ</h3>
       <div class="info-row">
-        <div class="ic">📍</div>
-        <div class="txt"><div class="lbl">Адреса</div><div class="val">вул. Святополка, Кагарлик, Київська обл.</div></div>
+        <div class="ic">рџ“Ќ</div>
+        <div class="txt"><div class="lbl">РђРґСЂРµСЃР°</div><div class="val">РІСѓР». РЎРІСЏС‚РѕРїРѕР»РєР°, РљР°РіР°СЂР»РёРє, РљРёС—РІСЃСЊРєР° РѕР±Р».</div></div>
       </div>
       <div class="info-row">
-        <div class="ic">📞</div>
-        <div class="txt"><div class="lbl">Телефон</div><div class="val">068 151 03 43 · 099 196 88 06</div></div>
+        <div class="ic">рџ“ћ</div>
+        <div class="txt"><div class="lbl">РўРµР»РµС„РѕРЅ</div><div class="val">068 151 03 43 В· 099 196 88 06</div></div>
       </div>
       <div class="info-row">
-        <div class="ic">⏰</div>
-        <div class="txt"><div class="lbl">Години роботи</div><div class="val">Щодня 10:00 – 20:30<br>Доставка 12:00 – 20:30</div></div>
+        <div class="ic">вЏ°</div>
+        <div class="txt"><div class="lbl">Р“РѕРґРёРЅРё СЂРѕР±РѕС‚Рё</div><div class="val">Р©РѕРґРЅСЏ 10:00 вЂ“ 20:30<br>Р”РѕСЃС‚Р°РІРєР° 12:00 вЂ“ 20:30</div></div>
       </div>
       <div class="info-row">
-        <div class="ic">📸</div>
+        <div class="ic">рџ“ё</div>
         <div class="txt"><div class="lbl">Instagram</div><div class="val">@katanakagarlyk</div></div>
       </div>
     </div>
     <div class="order-panel reveal">
-      <div class="order-icon">📞</div>
-      <h3>Бронювання та замовлення</h3>
-      <p>Приймаємо замовлення та бронювання столів <strong>тільки за телефоном</strong>. Зателефонуйте — і ми все оформимо.</p>
+      <div class="order-icon">рџ“ћ</div>
+      <h3>Р‘СЂРѕРЅСЋРІР°РЅРЅСЏ С‚Р° Р·Р°РјРѕРІР»РµРЅРЅСЏ</h3>
+      <p>РџСЂРёР№РјР°С”РјРѕ Р·Р°РјРѕРІР»РµРЅРЅСЏ С‚Р° Р±СЂРѕРЅСЋРІР°РЅРЅСЏ СЃС‚РѕР»С–РІ <strong>С‚С–Р»СЊРєРё Р·Р° С‚РµР»РµС„РѕРЅРѕРј</strong>. Р—Р°С‚РµР»РµС„РѕРЅСѓР№С‚Рµ вЂ” С– РјРё РІСЃРµ РѕС„РѕСЂРјРёРјРѕ.</p>
       <a href="tel:+380681510343" class="phone-btn">
         <span class="ph-num">068 151 03 43</span>
-        <span class="ph-lbl">Зателефонувати →</span>
+        <span class="ph-lbl">Р—Р°С‚РµР»РµС„РѕРЅСѓРІР°С‚Рё в†’</span>
       </a>
       <a href="tel:+380991968806" class="phone-btn">
         <span class="ph-num">099 196 88 06</span>
-        <span class="ph-lbl">Зателефонувати →</span>
+        <span class="ph-lbl">Р—Р°С‚РµР»РµС„РѕРЅСѓРІР°С‚Рё в†’</span>
       </a>
-      <div class="order-note">⏰ Щодня 10:00–20:30 · Доставка 12:00–20:30</div>
+      <div class="order-note">вЏ° Р©РѕРґРЅСЏ 10:00вЂ“20:30 В· Р”РѕСЃС‚Р°РІРєР° 12:00вЂ“20:30</div>
     </div>
   </div>
 </section>
@@ -574,35 +574,35 @@ section{padding:100px 5%;position:relative}
   <div class="footer-grid">
     <div>
       <img src="assets/logo.jpg" alt="Katana" style="width:64px;height:64px;border-radius:50%;border:2px solid var(--gold);margin-bottom:16px">
-      <p>Суші-бар Katana — смак Японії в Кагарлику. Свіжі інгредієнти, класичні рецепти, доставка.</p>
+      <p>РЎСѓС€С–-Р±Р°СЂ Katana вЂ” СЃРјР°Рє РЇРїРѕРЅС–С— РІ РљР°РіР°СЂР»РёРєСѓ. РЎРІС–Р¶С– С–РЅРіСЂРµРґС–С”РЅС‚Рё, РєР»Р°СЃРёС‡РЅС– СЂРµС†РµРїС‚Рё, РґРѕСЃС‚Р°РІРєР°.</p>
     </div>
     <div>
-      <h4>Навігація</h4>
-      <a href="#about">Про нас</a><br>
-      <a href="#menu">Меню</a><br>
-      <a href="#gallery">Галерея</a><br>
-      <a href="#contact">Контакти</a>
+      <h4>РќР°РІС–РіР°С†С–СЏ</h4>
+      <a href="#about">РџСЂРѕ РЅР°СЃ</a><br>
+      <a href="#menu">РњРµРЅСЋ</a><br>
+      <a href="#gallery">Р“Р°Р»РµСЂРµСЏ</a><br>
+      <a href="#contact">РљРѕРЅС‚Р°РєС‚Рё</a>
     </div>
     <div>
-      <h4>Меню</h4>
-      <a href="#menu">Сети</a><br>
-      <a href="#menu">Роли</a><br>
-      <a href="#menu">Темпура</a><br>
-      <a href="#menu">Суші-бургер</a>
+      <h4>РњРµРЅСЋ</h4>
+      <a href="#menu">РЎРµС‚Рё</a><br>
+      <a href="#menu">Р РѕР»Рё</a><br>
+      <a href="#menu">РўРµРјРїСѓСЂР°</a><br>
+      <a href="#menu">РЎСѓС€С–-Р±СѓСЂРіРµСЂ</a>
     </div>
     <div>
-      <h4>Контакти</h4>
+      <h4>РљРѕРЅС‚Р°РєС‚Рё</h4>
       <p>068 151 03 43<br>099 196 88 06<br>@katanakagarlyk</p>
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© 2026 KATANA Sushi Bar. Всі права захищено.</span>
-    <span>Зроблено з ❤️ в Україні</span>
+    <span>В© 2026 KATANA Sushi Bar. Р’СЃС– РїСЂР°РІР° Р·Р°С…РёС‰РµРЅРѕ.</span>
+    <span>Р—СЂРѕР±Р»РµРЅРѕ Р· вќ¤пёЏ РІ РЈРєСЂР°С—РЅС–</span>
   </div>
 </footer>
 
 <div class="lightbox" id="lightbox" aria-hidden="true">
-  <span class="lb-close" aria-label="Закрити">×</span>
+  <span class="lb-close" aria-label="Р—Р°РєСЂРёС‚Рё">Г—</span>
   <img alt="">
   <div class="lb-cap"></div>
 </div>
@@ -624,8 +624,9 @@ window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scr
 
 // Burger
 document.getElementById('burger').addEventListener('click',()=>document.getElementById('navLinks').classList.toggle('open'));
+document.querySelectorAll('#navLinks a').forEach(a=>a.addEventListener('click',()=>document.getElementById('navLinks').classList.remove('open')));
 
-// Sakura tree — blossoms along the branches
+// Sakura tree вЂ” blossoms along the branches
 function buildSakuraTree(){
   const svg=document.getElementById('sakuraTree');
   if(!svg)return;
@@ -800,44 +801,44 @@ function initTilt(){
 
 // Menu data
 const menuData={
-  "Сети":[
-    {name:"Сет «Katana»",desc:"32 шт · Філа, Каліф, Макі, Темпура",price:"699 ₴",badge:"Хіт"},
-    {name:"Сет «Samurai»",desc:"40 шт · Філа, Дракон, Каліф, Темпура",price:"899 ₴"},
-    {name:"Сет «Shogun»",desc:"50 шт · Мікс усіх ролів",price:"1199 ₴",badge:"New"},
+  "РЎРµС‚Рё":[
+    {name:"РЎРµС‚ В«KatanaВ»",desc:"32 С€С‚ В· Р¤С–Р»Р°, РљР°Р»С–С„, РњР°РєС–, РўРµРјРїСѓСЂР°",price:"699 в‚ґ",badge:"РҐС–С‚"},
+    {name:"РЎРµС‚ В«SamuraiВ»",desc:"40 С€С‚ В· Р¤С–Р»Р°, Р”СЂР°РєРѕРЅ, РљР°Р»С–С„, РўРµРјРїСѓСЂР°",price:"899 в‚ґ"},
+    {name:"РЎРµС‚ В«ShogunВ»",desc:"50 С€С‚ В· РњС–РєСЃ СѓСЃС–С… СЂРѕР»С–РІ",price:"1199 в‚ґ",badge:"New"},
   ],
-  "Філадельфія":[
-    {name:"Філадельфія класік",desc:"Лосось, вершковий сир, огірок",price:"249 ₴"},
-    {name:"Філадельфія з вугром",desc:"Вугор, вершковий сир, унагі соус",price:"279 ₴"},
-    {name:"Філадельфія спайсі",desc:"Лосось, спайсі соус, авокадо",price:"269 ₴"},
+  "Р¤С–Р»Р°РґРµР»СЊС„С–СЏ":[
+    {name:"Р¤С–Р»Р°РґРµР»СЊС„С–СЏ РєР»Р°СЃС–Рє",desc:"Р›РѕСЃРѕСЃСЊ, РІРµСЂС€РєРѕРІРёР№ СЃРёСЂ, РѕРіС–СЂРѕРє",price:"249 в‚ґ"},
+    {name:"Р¤С–Р»Р°РґРµР»СЊС„С–СЏ Р· РІСѓРіСЂРѕРј",desc:"Р’СѓРіРѕСЂ, РІРµСЂС€РєРѕРІРёР№ СЃРёСЂ, СѓРЅР°РіС– СЃРѕСѓСЃ",price:"279 в‚ґ"},
+    {name:"Р¤С–Р»Р°РґРµР»СЊС„С–СЏ СЃРїР°Р№СЃС–",desc:"Р›РѕСЃРѕСЃСЊ, СЃРїР°Р№СЃС– СЃРѕСѓСЃ, Р°РІРѕРєР°РґРѕ",price:"269 в‚ґ"},
   ],
-  "Каліфорнія":[
-    {name:"Каліфорнія з крабом",desc:"Крабові палички, авокадо, огірок",price:"199 ₴"},
-    {name:"Каліфорнія з лососем",desc:"Лосось, авокадо, огірок",price:"229 ₴"},
-    {name:"Каліфорнія з вугром",desc:"Вугор, авокадо, огірок",price:"239 ₴"},
+  "РљР°Р»С–С„РѕСЂРЅС–СЏ":[
+    {name:"РљР°Р»С–С„РѕСЂРЅС–СЏ Р· РєСЂР°Р±РѕРј",desc:"РљСЂР°Р±РѕРІС– РїР°Р»РёС‡РєРё, Р°РІРѕРєР°РґРѕ, РѕРіС–СЂРѕРє",price:"199 в‚ґ"},
+    {name:"РљР°Р»С–С„РѕСЂРЅС–СЏ Р· Р»РѕСЃРѕСЃРµРј",desc:"Р›РѕСЃРѕСЃСЊ, Р°РІРѕРєР°РґРѕ, РѕРіС–СЂРѕРє",price:"229 в‚ґ"},
+    {name:"РљР°Р»С–С„РѕСЂРЅС–СЏ Р· РІСѓРіСЂРѕРј",desc:"Р’СѓРіРѕСЂ, Р°РІРѕРєР°РґРѕ, РѕРіС–СЂРѕРє",price:"239 в‚ґ"},
   ],
-  "Футомакі":[
-    {name:"Футомакі з лососем",desc:"Лосось, огірок, авокадо, сир",price:"189 ₴"},
-    {name:"Футомакі з вугром",desc:"Вугор, огірок, авокадо",price:"199 ₴"},
+  "Р¤СѓС‚РѕРјР°РєС–":[
+    {name:"Р¤СѓС‚РѕРјР°РєС– Р· Р»РѕСЃРѕСЃРµРј",desc:"Р›РѕСЃРѕСЃСЊ, РѕРіС–СЂРѕРє, Р°РІРѕРєР°РґРѕ, СЃРёСЂ",price:"189 в‚ґ"},
+    {name:"Р¤СѓС‚РѕРјР°РєС– Р· РІСѓРіСЂРѕРј",desc:"Р’СѓРіРѕСЂ, РѕРіС–СЂРѕРє, Р°РІРѕРєР°РґРѕ",price:"199 в‚ґ"},
   ],
-  "Макі":[
-    {name:"Макі з огірком",desc:"Класичні макі з огірком",price:"99 ₴"},
-    {name:"Макі з лососем",desc:"Макі зі свіжим лососем",price:"139 ₴"},
-    {name:"Макі з авокадо",desc:"Макі з авокадо",price:"119 ₴"},
+  "РњР°РєС–":[
+    {name:"РњР°РєС– Р· РѕРіС–СЂРєРѕРј",desc:"РљР»Р°СЃРёС‡РЅС– РјР°РєС– Р· РѕРіС–СЂРєРѕРј",price:"99 в‚ґ"},
+    {name:"РњР°РєС– Р· Р»РѕСЃРѕСЃРµРј",desc:"РњР°РєС– Р·С– СЃРІС–Р¶РёРј Р»РѕСЃРѕСЃРµРј",price:"139 в‚ґ"},
+    {name:"РњР°РєС– Р· Р°РІРѕРєР°РґРѕ",desc:"РњР°РєС– Р· Р°РІРѕРєР°РґРѕ",price:"119 в‚ґ"},
   ],
-  "Темпура":[
-    {name:"Темпура з креветкою",desc:"Хрусткі ролі з креветкою",price:"219 ₴"},
-    {name:"Темпура з лососем",desc:"Темпура з лососем та сиром",price:"209 ₴"},
+  "РўРµРјРїСѓСЂР°":[
+    {name:"РўРµРјРїСѓСЂР° Р· РєСЂРµРІРµС‚РєРѕСЋ",desc:"РҐСЂСѓСЃС‚РєС– СЂРѕР»С– Р· РєСЂРµРІРµС‚РєРѕСЋ",price:"219 в‚ґ"},
+    {name:"РўРµРјРїСѓСЂР° Р· Р»РѕСЃРѕСЃРµРј",desc:"РўРµРјРїСѓСЂР° Р· Р»РѕСЃРѕСЃРµРј С‚Р° СЃРёСЂРѕРј",price:"209 в‚ґ"},
   ],
-  "Дракони":[
-    {name:"Дракон з вугром",desc:"Вугор, авокадо, унагі соус",price:"289 ₴"},
-    {name:"Дракон з лососем",desc:"Лосось, авокадо, спайсі",price:"269 ₴"},
+  "Р”СЂР°РєРѕРЅРё":[
+    {name:"Р”СЂР°РєРѕРЅ Р· РІСѓРіСЂРѕРј",desc:"Р’СѓРіРѕСЂ, Р°РІРѕРєР°РґРѕ, СѓРЅР°РіС– СЃРѕСѓСЃ",price:"289 в‚ґ"},
+    {name:"Р”СЂР°РєРѕРЅ Р· Р»РѕСЃРѕСЃРµРј",desc:"Р›РѕСЃРѕСЃСЊ, Р°РІРѕРєР°РґРѕ, СЃРїР°Р№СЃС–",price:"269 в‚ґ"},
   ],
-  "Суші Бургер":[
-    {name:"Суші бургер з лососем",desc:"Рисова булочка, лосось, авокадо, сир",price:"249 ₴",badge:"New"},
-    {name:"Суші бургер з вугром",desc:"Рисова булочка, вугор, авокадо",price:"269 ₴"},
+  "РЎСѓС€С– Р‘СѓСЂРіРµСЂ":[
+    {name:"РЎСѓС€С– Р±СѓСЂРіРµСЂ Р· Р»РѕСЃРѕСЃРµРј",desc:"Р РёСЃРѕРІР° Р±СѓР»РѕС‡РєР°, Р»РѕСЃРѕСЃСЊ, Р°РІРѕРєР°РґРѕ, СЃРёСЂ",price:"249 в‚ґ",badge:"New"},
+    {name:"РЎСѓС€С– Р±СѓСЂРіРµСЂ Р· РІСѓРіСЂРѕРј",desc:"Р РёСЃРѕРІР° Р±СѓР»РѕС‡РєР°, РІСѓРіРѕСЂ, Р°РІРѕРєР°РґРѕ",price:"269 в‚ґ"},
   ],
 };
-const catImg={"Сети":"assets/sushi2.jpg","Філадельфія":"assets/sushi3.jpg","Каліфорнія":"assets/sushi4.jpg","Футомакі":"assets/sushi5.jpg","Макі":"assets/sushi6.jpg","Темпура":"assets/sushi7.jpg","Дракони":"assets/sushi8.jpg","Суші Бургер":"assets/sushi9.jpg"};
+const catImg={"РЎРµС‚Рё":"assets/sushi2.jpg","Р¤С–Р»Р°РґРµР»СЊС„С–СЏ":"assets/sushi3.jpg","РљР°Р»С–С„РѕСЂРЅС–СЏ":"assets/sushi4.jpg","Р¤СѓС‚РѕРјР°РєС–":"assets/sushi5.jpg","РњР°РєС–":"assets/sushi6.jpg","РўРµРјРїСѓСЂР°":"assets/sushi7.jpg","Р”СЂР°РєРѕРЅРё":"assets/sushi8.jpg","РЎСѓС€С– Р‘СѓСЂРіРµСЂ":"assets/sushi9.jpg"};
 const tabs=Object.keys(menuData);
 const tabsEl=document.getElementById('menuTabs');
 const gridEl=document.getElementById('menuGrid');
@@ -866,14 +867,14 @@ renderMenu(tabs[0]);
 
 // Gallery
 const galleryItems=[
-  {img:'assets/sushi3.jpg',label:'Філадельфія'},
-  {img:'assets/sushi2.jpg',label:'Сети'},
-  {img:'assets/sushi4.jpg',label:'Каліфорнія'},
-  {img:'assets/sushi7.jpg',label:'Темпура'},
-  {img:'assets/sushi8.jpg',label:'Дракони'},
-  {img:'assets/sushi9.jpg',label:'Суші-бургер'},
-  {img:'assets/interior2.jpg',label:'Інтер\'єр'},
-  {img:'assets/sakura.jpg',label:'Атмосфера'},
+  {img:'assets/sushi3.jpg',label:'Р¤С–Р»Р°РґРµР»СЊС„С–СЏ'},
+  {img:'assets/sushi2.jpg',label:'РЎРµС‚Рё'},
+  {img:'assets/sushi4.jpg',label:'РљР°Р»С–С„РѕСЂРЅС–СЏ'},
+  {img:'assets/sushi7.jpg',label:'РўРµРјРїСѓСЂР°'},
+  {img:'assets/sushi8.jpg',label:'Р”СЂР°РєРѕРЅРё'},
+  {img:'assets/sushi9.jpg',label:'РЎСѓС€С–-Р±СѓСЂРіРµСЂ'},
+  {img:'assets/interior2.jpg',label:'Р†РЅС‚РµСЂ\'С”СЂ'},
+  {img:'assets/sakura.jpg',label:'РђС‚РјРѕСЃС„РµСЂР°'},
 ];
 const gg=document.getElementById('galleryGrid');
 galleryItems.forEach(g=>{
@@ -910,9 +911,9 @@ addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox()});
 
 // Testimonials
 const testis=[
-  {name:"Олена К.",role:"Постійний клієнт",text:"Найкращі роли в Кагарлику! Завжди свіжі, красиво подані. Доставка швидка."},
-  {name:"Андрій М.",role:"Любитель суші",text:"Сет «Samurai» — просто бомба. Великі порції, смачно, ціна адекватна."},
-  {name:"Марія П.",role:"Сімейна вечеря",text:"Замовляли на день народження. Все було ідеально, діти в захваті від суші-бургера!"},
+  {name:"РћР»РµРЅР° Рљ.",role:"РџРѕСЃС‚С–Р№РЅРёР№ РєР»С–С”РЅС‚",text:"РќР°Р№РєСЂР°С‰С– СЂРѕР»Рё РІ РљР°РіР°СЂР»РёРєСѓ! Р—Р°РІР¶РґРё СЃРІС–Р¶С–, РєСЂР°СЃРёРІРѕ РїРѕРґР°РЅС–. Р”РѕСЃС‚Р°РІРєР° С€РІРёРґРєР°."},
+  {name:"РђРЅРґСЂС–Р№ Рњ.",role:"Р›СЋР±РёС‚РµР»СЊ СЃСѓС€С–",text:"РЎРµС‚ В«SamuraiВ» вЂ” РїСЂРѕСЃС‚Рѕ Р±РѕРјР±Р°. Р’РµР»РёРєС– РїРѕСЂС†С–С—, СЃРјР°С‡РЅРѕ, С†С–РЅР° Р°РґРµРєРІР°С‚РЅР°."},
+  {name:"РњР°СЂС–СЏ Рџ.",role:"РЎС–РјРµР№РЅР° РІРµС‡РµСЂСЏ",text:"Р—Р°РјРѕРІР»СЏР»Рё РЅР° РґРµРЅСЊ РЅР°СЂРѕРґР¶РµРЅРЅСЏ. Р’СЃРµ Р±СѓР»Рѕ С–РґРµР°Р»СЊРЅРѕ, РґС–С‚Рё РІ Р·Р°С…РІР°С‚С– РІС–Рґ СЃСѓС€С–-Р±СѓСЂРіРµСЂР°!"},
 ];
 const tg=document.getElementById('testiGrid');
 testis.forEach(t=>{
